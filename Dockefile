@@ -1,5 +1,0 @@
-# this image will be created using httpd as base image
-FROM httpd
-
-# copy index.html from local machie to apache2 htdocs directory
-COPY index.html /usr/local/apache2/htdocs/
